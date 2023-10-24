@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mid-Autumn Festival 2023 by Little Bunny</title>
+    <title>Mid-Autumn Festival 2023 E-commerce platform by The Little Bunny</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="D:\Libraries\fontawesome-free-6.4.0-web\fontawesome-free-6.4.0-web\css/all.min.css">   
+    <!-- boostrap CSS link -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous"> 
+    <!-- fonawesome link -->
+    <link rel="stylesheet" href="D://Libraries/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/fontawesome.css">
+
 </head>
 <body>
-    <?php
-    ?>
-    <div class="nav">
-        <a class="logo" href="#">
-            <img src="assets/logo1.png">
-        </a>
+    <!-- navbar -->
+    <div class="container-fluid p-0">
+        <!-- first child-->
+        <nav class="navbar navbar-expand-lg" >
+            <div class="container-fluid">
+                <img src="assets/logo1.png" alt="" class="logo" width="120px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Total Price:100/-</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-ountline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-        <div class= "navbar-toggler" type="button" id="bar">
-            <span class="toggler-icon"></span>
-            <span class="toggler-icon"></span>
-            <span class="toggler-icon"></span>
-        </div>
 
-        <div class="menu-bar" id="navbar">
-            <ul class="menu-items">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#highlight">Highlight</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#login"><button class="login-btn" id="form-open"> Log In </button></a></li>
+
+        <!-- second child-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Welcome Guest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
             </ul>
-        </div>
-
-        <div class="nav-cart">
-            <a class="shopping">
-                <i class="fa-solid fa-cart-shopping" style="color: #F99006;"></i>
-            </a>
-            <span class="quantity">0</span>
-        </div>
-
-        
-
-    </div>
+        </nav>
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fa-solid fa-caret-up" style="color: #fff;"></i> </button>
 
 
-
+        <!-- third child-->
     <div class="back offset" id="home">
 
         <div class="overlay"> </div>
@@ -177,7 +204,7 @@
 
         </section>
 
-
+<!---  --->
         <section id="product" class="product offset">
             <h3>&#9884; &nbsp; &nbsp; &#183; &nbsp; &#183; &nbsp; &nbsp; PRODUCTS &nbsp; &nbsp; &#183; &nbsp; &#183; &nbsp; &nbsp; &#9884;</h3>
             <h6>Our offical products are available ONLINE now!</h6>
@@ -325,9 +352,9 @@
     <p>Event Website by<a rel="nofollow" href="https://....com">NguynPhuong</a> - 
     UI Powwered by <a rel="nofollow" href="https://....com">NguynPhuong</a></p>
 </div>
-
+<!-- js link -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
 </body>
